@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wiki Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Wiki Site</h1>
+        <input type="text" id="search" placeholder="Search articles...">
+    </header>
+    <nav>
+        <ul id="article-list">
+            <li onclick="loadArticle('Article1')">Article 1</li>
+            <li onclick="loadArticle('Article2')">Article 2</li>
+            <li onclick="loadArticle('Article3')">Article 3</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="content">
+            <h2>Welcome to My Wiki!</h2>
+            <p>Select an article to get started.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
